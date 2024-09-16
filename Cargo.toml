@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.89"
 clap = { version = "4.5.17", features = ["derive"] }
 crossterm = { version = "0.28.1", features = ["serde"] }
 ratatui = "0.28.1"
